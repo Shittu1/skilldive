@@ -23,6 +23,18 @@ body {
 }
 
 #pricesnav {
-  z-index: 3;
-  background: rgb(18, 199, 57);
+  background: #007bff
+}
+
+a#priceshomelink {
+  text-decoration: none;
+}
+
+a.navbar-brand.js-scroll-trigger, a#priceshomelink {
+  color: #fff;
+}
+
+a.navbar-brand.js-scroll-trigger:hover, a#priceshomelink:hover {
+  color: black;
+  font-weight: bold;
 }
